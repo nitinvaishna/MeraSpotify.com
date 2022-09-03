@@ -115,6 +115,34 @@ nav ul li{
     transition: opacity 0.4s ease-in;
 }
 
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  a:visited {
+    color:  white ;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+
+
 @media only screen and (max-width: 1100px) {
     body {
       background-color: red;
